@@ -5,7 +5,7 @@ function gun(curlev,reqlev)
 	high = 0;
 	price = 0;
 		
-    if (reqlev > 600 && reqlev <= 650) {
+     if (reqlev > 600 && reqlev <= 650) {
             if ((curlev <= 650) && (curlev > 600)) {
                 price = reqlev - curlev;
                 price *= 4.0;
@@ -23,8 +23,8 @@ function gun(curlev,reqlev)
                 low = 500 - curlev;
                 low *= 3.0;
                 high = reqlev - 600;
-                high *= 3.5;
-                price = high + low + 150;
+                high *= 4.0;
+                price = high + low + 350;
                 
             }
             if ((curlev <= 400) && (curlev > 300)) {
@@ -32,7 +32,7 @@ function gun(curlev,reqlev)
                 low *= 2.5;
                 high = reqlev - 600;
                 high *= 4.0;
-                price = high + low + 350;
+                price = high + low + 650;
                 
             }
             if ((curlev <= 300) && (curlev > 200)) {
@@ -41,7 +41,7 @@ function gun(curlev,reqlev)
                 low *= 2.0;
                 high = reqlev - 600;
                 high *= 4.0;
-                price = high + low + 600;
+                price = high + low + 900;
                 
             }
             if ((curlev <= 200) && (curlev > 100)) {
@@ -81,7 +81,7 @@ function gun(curlev,reqlev)
                 low *= 2.5;
                 high = reqlev - 500;
                 high *= 3.5;
-                price = high + low + 150;
+                price = high + low + 300;
                
             }
             if ((curlev <= 300) && (curlev > 200)) {
@@ -89,7 +89,7 @@ function gun(curlev,reqlev)
                 low *= 2.0;
                 high = reqlev - 500;
                 high *= 3.5;
-                price = high + low + 350;
+                price = high + low + 550;
                 
             }
             if ((curlev <= 200) && (curlev > 100)) {
@@ -98,7 +98,7 @@ function gun(curlev,reqlev)
                 low *= 1.5;
                 high = reqlev - 500;
                 high *= 3.5;
-                price = high + low + 600;
+                price = high + low + 750;
             
             }
             if ((curlev <= 100) && (curlev > 0)) {
@@ -106,7 +106,7 @@ function gun(curlev,reqlev)
                 low *= 1.0;
                 high = reqlev - 500;
                 high *= 3.5;
-                price = high + low + 1100;
+                price = high + low + 900;
                
             }
         } else if (reqlev > 400 && reqlev <= 650) {
@@ -128,7 +128,7 @@ function gun(curlev,reqlev)
                 low *= 2.0;
                 high = reqlev - 400;
                 high *= 3.0;
-                price = high + low + 150;
+                price = high + low + 250;
                
             }
             if ((curlev <= 200) && (curlev > 100)) {
@@ -136,7 +136,7 @@ function gun(curlev,reqlev)
                 low *= 1.5;
                 high = reqlev - 400;
                 high *= 3.0;
-                price = high + low + 350;
+                price = high + low + 450;
                
             }
             if ((curlev <= 100) && (curlev > 000)) {
@@ -168,7 +168,7 @@ function gun(curlev,reqlev)
                 low *= 1.5;
                 high = reqlev - 300;
                 high *= 2.5;
-                price = high + low + 150;
+                price = high + low + 200;
           
             }
             if ((curlev <= 100) && (curlev > 0)) {
