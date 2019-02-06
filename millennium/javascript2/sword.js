@@ -81,7 +81,7 @@ function sword(curlev,reqlev)
                 low *= 2.5;
                 high = reqlev - 500;
                 high *= 3.5;
-                price = high + low + 350;
+                price = high + low + 300;
                
             }
             if ((curlev <= 300) && (curlev > 200)) {
@@ -89,7 +89,7 @@ function sword(curlev,reqlev)
                 low *= 2.0;
                 high = reqlev - 500;
                 high *= 3.5;
-                price = high + low + 650;
+                price = high + low + 550;
                 
             }
             if ((curlev <= 200) && (curlev > 100)) {
@@ -98,7 +98,7 @@ function sword(curlev,reqlev)
                 low *= 1.5;
                 high = reqlev - 500;
                 high *= 3.5;
-                price = high + low + 900;
+                price = high + low + 750;
             
             }
             if ((curlev <= 100) && (curlev > 0)) {
@@ -106,7 +106,7 @@ function sword(curlev,reqlev)
                 low *= 1.0;
                 high = reqlev - 500;
                 high *= 3.5;
-                price = high + low + 1100;
+                price = high + low + 900;
                
             }
         } else if (reqlev > 400 && reqlev <= 650) {
@@ -128,7 +128,7 @@ function sword(curlev,reqlev)
                 low *= 2.0;
                 high = reqlev - 400;
                 high *= 3.0;
-                price = high + low + 350;
+                price = high + low + 250;
                
             }
             if ((curlev <= 200) && (curlev > 100)) {
@@ -136,7 +136,7 @@ function sword(curlev,reqlev)
                 low *= 1.5;
                 high = reqlev - 400;
                 high *= 3.0;
-                price = high + low + 650;
+                price = high + low + 450;
                
             }
             if ((curlev <= 100) && (curlev > 000)) {
@@ -144,7 +144,7 @@ function sword(curlev,reqlev)
                 low *= 1.0;
                 high = reqlev - 400;
                 high *= 3.0;
-                price = high + low + 900;
+                price = high + low + 600;
                
             }
 
@@ -168,7 +168,7 @@ function sword(curlev,reqlev)
                 low *= 1.5;
                 high = reqlev - 300;
                 high *= 2.5;
-                price = high + low + 350;
+                price = high + low + 200;
           
             }
             if ((curlev <= 100) && (curlev > 0)) {
@@ -176,7 +176,7 @@ function sword(curlev,reqlev)
                 low *= 1.0;
                 high = reqlev - 300;
                 high *= 2.5;
-                price = high + low + 650;
+                price = high + low + 350;
                
             }
         } else if (reqlev > 200 && reqlev <= 650) {
@@ -199,7 +199,7 @@ function sword(curlev,reqlev)
                 low *= 1.0;
                 high = reqlev - 200;
                 high *= 2.0;
-                price = high + low + 350;
+                price = high + low + 150;
           
             }
 
