@@ -49,7 +49,7 @@ function strength(curlev,reqlev)
                 low *= 1.5;
                 high = reqlev - 600;
                 high *= 4.0;
-                price = high + low + 900;
+                price = high + low + 1100;
                
             }
             if ((curlev <= 100) && (curlev > 0)) {
@@ -105,7 +105,7 @@ function strength(curlev,reqlev)
                 low *= 1.0;
                 high = reqlev - 500;
                 high *= 3.5;
-                price = high + low + 900;
+                price = high + low + 1100;
                
             }
         } else if (reqlev > 400 && reqlev <= 650) {
