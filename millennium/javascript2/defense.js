@@ -5,7 +5,7 @@ function defense(curlev,reqlev)
 	high=0;
 	price=0;
 	
-    if (reqlev > 600 && reqlev <= 650) {
+     if (reqlev > 600 && reqlev <= 650) {
             if ((curlev <= 650) && (curlev > 600)) {
                 price = reqlev - curlev;
                 price *= 4.0;
