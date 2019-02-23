@@ -54,7 +54,7 @@ function strength(curlev,reqlev)
                 low *= 2;
                 price = high + low;
             } else if (curlev <= 650) {
-                price = reqlev - 450;
+                price = reqlev - curlev;
                 price *= 2.5;
             }
         } else if (reqlev >= 350) {
