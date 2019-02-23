@@ -1,8 +1,9 @@
 function strength(curlev,reqlev)
 {
 	var low,high,price;
-	low = 0;
-	
+	low =0;
+	high=0;
+	price=0;
 	
    if (reqlev > 650 && reqlev <= 850) {
             if (curlev <= 250) {
