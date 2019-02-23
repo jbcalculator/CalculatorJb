@@ -1,11 +1,11 @@
 function defense(curlev,reqlev)
 {
 	var low,high,price;
-	low =0;
-	high=0;
-	price=0;
-	
-    if (reqlev > 650 && reqlev <= 850) {
+	low = 0;
+	high = 0;
+	price = 0;
+		
+     if (reqlev > 650 && reqlev <= 850) {
             if (curlev <= 250) {
                 high = reqlev - 650;
                 high *= 3;
@@ -29,7 +29,8 @@ function defense(curlev,reqlev)
                 high *= 3;
                 low = 650 - curlev;
                 low *= 2.5;
-                price = high + low;;
+                price = high + low;
+
             } else if (curlev <= 850) {
                 price = reqlev - curlev;
                 price *= 3;
@@ -89,6 +90,5 @@ function defense(curlev,reqlev)
             price = reqlev - curlev;
             price *= 1;
         }
-
 	return price;
 }
