@@ -90,6 +90,6 @@ function defense(curlev,reqlev)
             price = reqlev - curlev;
             price *= 1;
         }
-}
+
 	return price;
 }
