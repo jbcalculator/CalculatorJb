@@ -29,7 +29,6 @@ function strength(curlev,reqlev)
                 low = 650 - curlev;
                 low *= 2.5;
                 price = high + low;
-                System.out.println(price);
             } else if (curlev <= 850) {
                 price = reqlev - curlev;
                 price *= 3;
