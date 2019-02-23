@@ -29,8 +29,7 @@ function defense(curlev,reqlev)
                 high *= 3;
                 low = 650 - curlev;
                 low *= 2.5;
-                price = high + low;
-                System.out.println(price);
+                price = high + low;;
             } else if (curlev <= 850) {
                 price = reqlev - curlev;
                 price *= 3;
