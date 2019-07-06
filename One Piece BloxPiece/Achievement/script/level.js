@@ -242,7 +242,17 @@ var money = 0;
             rlevel--;
             money+=12.5;
             // return 12.5f;
-        } else {
+        } else if (clevel >= 600 && clevel < 625) {
+            clevel++;
+            rlevel--;
+            money+=13;
+            // return 13f;
+        }else if (clevel >= 625 && clevel < 650) {
+            clevel++;
+            rlevel--;
+            money+=13.5;
+             // return 13.5f;
+        }else {
 
             break;
         }
