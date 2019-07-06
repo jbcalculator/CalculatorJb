@@ -100,7 +100,15 @@ function getLevel(money, clevel) {
             clevel += 1;
             money -= 12.5;
             // return 12.5f;
-        } else {
+        }else if (clevel >= 600 && clevel < 625 && money >= 13 ) {
+            clevel += 1;
+            money -= 13 ;
+            // return 12.5f;
+        }else if (clevel >= 625 && clevel < 650 && money >= 13.5) {
+            clevel += 1;
+            money -=13.5;
+            // return 12.5f;
+        }else {
 
             break;
         }
